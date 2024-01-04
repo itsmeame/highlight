@@ -1,0 +1,31 @@
+.free {
+  background-color: #0d0225;
+  padding-top: 200px;
+}
+
+.free__img img {
+  border-radius: 20px;
+}
+
+.free__content {
+  color: #fff;
+  padding-left: 50px;
+}
+
+.free__content h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.free__content p {
+  font-size: 20px;
+}
+
+.free__img {
+  position: relative;
+  padding-right: 40px;
+  width: 90%;
+  height: 100%;
+  z-index: 777;
+}

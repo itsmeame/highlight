@@ -1,0 +1,132 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+.hero-section {
+  background-color: #0d0225;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+  width: 100%;
+}
+
+.hero__content h2 {
+  font-size: 70px;
+  padding-left: 0;
+  max-width: 100%;
+  font-weight: bolder;
+  
+  line-height: 1.2;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-left: 16rem;
+}
+
+.hero__content .line1 {
+  white-space: nowrap;
+}
+
+.hero__content .line2 {
+  white-space: nowrap;
+  margin-left: 350px;
+  color: rgb(250, 196, 96);
+}
+
+.hero__content {
+  padding-top: 90px;
+  color: rgb(199, 198, 198);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  /* Center the buttons horizontally */
+  gap: 10px; /* Add some spacing between buttons */
+  /* margin-top: 20px; */
+  padding-left: 30rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 16px 32px;
+  font-size: 18px;
+  white-space: nowrap;
+ 
+  /* padding-right: 30rem; */
+}
+
+.buttons .btn-get-started {
+  background-color: #52c4f1;
+  color:black;
+  font-weight: bold;
+}
+.icon {
+
+  margin-right: 10px; /* Adjust the margin as needed */
+   /* Set the desired color for the icon */
+}
+.buttons .btn-live-demo {
+  display: flex; /* Use flexbox for the Live Demo button */
+  align-items: center; /* Align items vertically center */
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #52c4f1;
+  font-weight: bolder;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.buttons .btn-live-demo:hover {
+  background-color: pink;
+  color: black;
+  border-color: pink;
+}
+
+
+
+.buttons button:hover {
+  background-color: violet;
+  color: white;
+}
+
+
+.request-demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0225;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  /* border: 2px solid #fff; */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+  /* margin-right: 9px; Remove or adjust this line */
+ margin-bottom: 20px;
+  padding-right: 1%;
+  transition: background-color 0.3s ease;
+  height: 100%;
+}
+
+.request-demo:hover {
+  background-color: #1a1439;
+}
+
+.request-demo p {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.arrow-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,47 @@
+.test {
+    background-color: #0d0225;
+    padding-top: 200px;
+    padding-bottom: 20px;
+  
+  }
+  
+  
+  .test__img img {
+    border-radius: 20px;
+  }
+  
+  .test__content {
+    color: #fff;
+    padding-right: 50px;
+   
+
+    
+ 
+  }
+  
+  .test__content h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600px;
+    padding-bottom: 20px;
+    
+  }
+  .test__content p{
+  font-size: 20px;
+  
+  
+  }
+  
+  .test__img {
+    position: relative;
+    /* top: 50px; */
+    bottom: 50px;
+    padding-left: 40px;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    z-index: 777;
+  }
+  
+  
+  

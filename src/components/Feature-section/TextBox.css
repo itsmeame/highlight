@@ -1,0 +1,22 @@
+
+.text-box {
+  background-color: #0d0225;
+  padding: 10px;
+  text-align: center;
+  
+
+  
+}
+
+.text-box h2 {
+  color: #fff;
+  font-size: 60px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  
+}
+
+.text-box .highlight {
+  color: rgb(250, 196, 96);
+  font-weight: bold;
+}

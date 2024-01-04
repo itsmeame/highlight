@@ -1,0 +1,179 @@
+
+
+ .header {
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  line-height: 80px;
+  background-color: #0d0225;
+  color: #e2e7e7;
+  /* position: fixed; */
+  top: 0;
+  z-index: 1000;
+  /* transition: transform 0.9s ease-in-out; */
+  border-bottom: 0.2px solid gray; /* Set your desired border color */
+}
+
+
+.content {
+  margin-top: 80px; /* Add margin to content to prevent it from being hidden behind the header */
+  height: 150vh; /* Adjust the height to create scrolling */
+}
+
+
+
+
+
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 2.5rem;
+  margin-left: 6rem;
+
+}
+.nav__item a {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(199, 198, 198);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.nav__item a:hover {
+  color: #fafafa;
+}
+/* ... (previous styles) */
+.sign-in-buttons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  
+
+
+}
+
+.signup-button {
+  margin-right: 3rem;
+   /* Add a margin to create space between the "Sign Up" and "Discord" buttons */
+}
+.signin-button,
+.signup-button {
+  width: 120px; /* Set your desired width */
+  height: 60px;
+   /* Set your desired height */
+  display: inline-block; /* Align buttons horizontally */
+  vertical-align: middle; /* Align buttons vertically in the middle */
+
+  background-color: rgb(9, 9, 50);
+  color: aqua;
+  padding: 8px 12px; /* Adjust padding as needed */
+  border-radius: 14px;
+  border-width: 2px;
+  border-color: aqua;
+ 
+  cursor: pointer;
+  font-size: 0.9rem; /* Adjust font size as needed */
+  font-weight: bold;
+  line-height: 50px; /* Set line-height equal to button height for vertical centering */
+
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+
+/* Styles for buttons */
+.discord-button,
+.github-button {
+  width:60px;
+  height: 50px;
+  background-color: rgb(9, 9, 50); /* Set your desired button background color */
+  color:aqua; /* Set your desired button text color */
+  padding: 1px 10px; /* Adjust padding as needed */
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: aqua;
+  padding: 0px 10px;
+  line-height: 40px;
+  font-size: 30px;
+
+
+} 
+
+
+
+
+
+
+/* Hover styles for buttons */
+.signin-button:hover,
+.signup-button:hover,
+.discord-button:hover,
+.github-button:hover {
+  background-color: rgb(85, 205, 205); /* Set your desired hover background color */
+  color: #fff; /* Set your desired hover text color */
+}
+
+/* ... (other styles) */
+
+
+.mobile__menu {
+  display: block;
+}
+
+
+.mobile__menu {
+  display: none; /* Hide the mobile menu toggle button by default */
+}
+
+/* Responsive styles for mobile view */
+/* ... (previous styles) */
+
+/* Hide the mobile menu toggle button by default */
+.mobile__menu {
+  display: none;
+}
+
+/* Responsive styles for mobile view */
+@media (max-width: 748px) {
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    display: none;
+  }
+
+  .menu-open .nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f1f1;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .menu-open .nav__list .nav__item {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .menu-open .nav__list .nav__item a {
+    color: #fff;
+  }
+
+  /* Show the mobile menu toggle button on smaller screens */
+  .mobile__menu {
+    display: block !important; /* Use !important to override any conflicting styles */
+  }
+
+  /* ... (other responsive styles) */
+}
