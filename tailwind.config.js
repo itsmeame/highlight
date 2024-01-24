@@ -2,8 +2,13 @@
 export default {
   content: ["src/**/*.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        aqua: '#00FFFF',
+        back:'#0d0225',
+    },
   },
+},
   plugins: [],
-}
+};
 
